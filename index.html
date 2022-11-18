@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-md-12 TittleHeading">Password Generator</div>
+        <div class="row">
+            <div class="col-md-6 HalfColumns">
+                <div class="TextParagraph">
+                    <p>In order to get Generated password you have to enter the number how much of symbols you want to
+                        generate. e.g. 18</p>
+                </div>
+                <div class="BigGenerator">
+                    <div class="InputGenerator">
+                        <input type="number" class="form-control" id="passwordInputId"
+                            placeholder="Enter between 1 and 50" min="1" max="50" maxlength="2">
+                    </div>
+                    <div class="InputGeneratorButton">
+                        <button type="button" class="btn btn-outline-success ManualGenerator">Generate Password</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-6 HalfColumns">
+                <div class="TextParagraph">
+                    <p>In order to get Generated password you have to press bellow this "Generate Button" and it will
+                        give you random of 20 symbols</p>
+                </div>
+                <br><br>
+                <button type="button" class="btn btn-outline-success TwentySymbolGenerator" >Generate Password</button>
+            </div>
+        </div>
+        <div>
+            <h2 class="PasswordText"></h2>
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

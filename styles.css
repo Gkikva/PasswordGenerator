@@ -1,0 +1,19 @@
+.container {
+    margin: 5% auto auto auto;
+    /* background-color: blue; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 2% 5%;
+} 
+
+.HalfColumns {
+    padding: 2% 5%;
+}
+
+.BigGenerator {
+    padding-top: 2%;
+}
+
+.InputGeneratorButton {
+    padding-top: 2%;
+}
