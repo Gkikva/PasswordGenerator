@@ -28,7 +28,7 @@ document.querySelector("#passwordInputId").addEventListener("input", function ()
     var input_value = this.value
     if (input_value > 50) {
         document.querySelector(".ManualGenerator").addEventListener("click", function () {
-            document.querySelector(".PasswordText").innerHTML= "You'r input is greater than 50"
+            document.querySelector(".PasswordText").innerHTML= "Input less than 50"
         })
     }
     else {
